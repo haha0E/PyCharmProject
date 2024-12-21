@@ -1,8 +1,9 @@
 class boy:
-    name = ''
+    name = 'zjl'
 
 
 s = 'this ' 'is ' 'string'
 if __name__ == '__main__':
-
-    print('hello python')
+    b = boy()
+    print('hello python '+b.name)
+    print(s)
