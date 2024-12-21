@@ -1,9 +1,6 @@
 import warnings
 
-warnings.filterwarnings('ignore', '.*do not.*',)
 
-warnings.warn('Show this message')
-warnings.warn('Do not show this message')
 # 写个例子，看看效果：
 # Example of filtering warnings based on message content
 
